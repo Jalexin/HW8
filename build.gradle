@@ -15,7 +15,7 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.2'
     compileOnly group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
     compileOnly group: 'jakarta.servlet', name: 'jakarta.servlet-api', version: '6.0.0'
-    implementation 'com.google.guava:guava:31.1-jre'
+    implementation 'org.thymeleaf:thymeleaf:3.1.1.RELEASE'
 }
 
 test {
